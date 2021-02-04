@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>P-I-P Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="title" style="text-align:center; margin-top: 8%; padding-left: 15%; padding-right: 15%;"><font face="Comic Sans MS" color="#FFFFFFF" size="35px">Prefix-Infix-Postfix Converter</font></div>
+	
+	<div class="main" id="mainDiv">
+		
+		<div style="float: left; margin-right: 10px;">
+			<form name="first_dd">
+				<select name="exp1" id="dd1" onchange="clearinputbox()">
+				  <option>--From--</option>
+				  <option value="post">Postfix</option>
+				  <option value="pre">Prefix</option>
+				  <option value="in">Infix</option>
+				</select>
+			</form>
+		</div>
+
+		<div style="float: left; margin-right: 10px;">
+			<button type="button" id="b0" onclick="swap()"><span>Swap</span></button>
+		</div>
+
+		<div style="float: left; margin-right: 10px;">
+			<form name="second_dd">
+				<select name="exp2" id="dd2" onchange="clearcontent()">
+				  <option>--To--</option>
+				  <option value="post">Postfix</option>
+				  <option value="pre">Prefix</option>
+				  <option value="in">Infix</option>
+				</select>
+			</form>
+		</div>
+
+		<div style="float: left; margin-right: 10px;">
+			<form>
+			<input type="text" id="input" align="left" name="input" maxlength = "100" size="30" placeholder="Enter The Expression To Be Converted">
+			</form>
+		</div>
+
+		<div style="float: left;">
+			<button type="button" id="b1" onclick="combCheck()"><span>Convert</span></button>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="converterFunc.js"></script>
+
+</body></html>

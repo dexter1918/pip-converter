@@ -1,0 +1,121 @@
+body{
+        background: -moz-linear-gradient(-45deg,  #1e5799 10%, #1e5799 19%, #2989d8 52%, #7db9e8 100%); 
+        background: -webkit-linear-gradient(-45deg,  #1e5799 10%,#1e5799 19%,#2989d8 52%,#7db9e8 100%); 
+        background: linear-gradient(135deg,  #1e5799 10%,#1e5799 19%,#2989d8 52%,#7db9e8 100%); W3C, IE10+, FF16+, Chrome26+, 
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1);
+        background-repeat: no-repeat;
+    }
+html{
+        height:100%;
+    }
+    #mainDiv {
+  display: table;
+  margin: 0 auto;
+  margin-top:6%;
+  table-layout: auto;
+  height: 180px;
+  }
+   #dd1 {
+  font-family:Comic Sans MS;
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  outline: none;
+}
+   #dd2 {
+  font-family:Comic Sans MS;
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  outline: none;
+}
+   #input {
+  font-family:Comic Sans MS;
+  display: inline-block;
+  border-radius: 25px;
+  text-align: center;
+  padding: 15px;
+  width: 315px;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+    #b0 {
+  font-family:Comic Sans MS;
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  width: 80px;
+  transition: all 0.3s;
+  cursor: pointer;
+  outline: none;
+}
+
+	#b0 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+	#b0 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+	#b0:hover span {
+  padding-right: 15px;
+}
+
+	#b0:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+    #b1 {
+  font-family:Comic Sans MS;
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+	#b1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+	#b1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+	#b1:hover span {
+  padding-right: 25px;
+}
+
+	#b1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
